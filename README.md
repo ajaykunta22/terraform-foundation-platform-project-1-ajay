@@ -1,6 +1,3 @@
-# terraform-foundation-platform-project-1-ajay
-Production-grade AWS foundation platform using Terraform, GitHub, and Terraform Cloud-project-1
-
 
 # AWS Boot Camp – Project 1: Foundation Platform
 
@@ -100,13 +97,7 @@ Environment: Dev
 foundation-platform-dev-vpc
 foundation-platform-dev-public-subnet-1
 foundation-platform-dev-private-subnet-1
-
-
----
-
-## Step 1.3 — Save File
-
-Press:
-
-```text
-Ctrl + S
+Project
+Environment
+Owner
+CostCenter
