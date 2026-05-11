@@ -45,7 +45,7 @@ resource "aws_security_group" "web" {
 
 resource "aws_instance" "web" {
   ami                    = data.aws_ami.amazon_linux.id
-  instance_type          = "t2.micro"
+  instance_type          = "t3.medium"
   subnet_id              = var.public_subnet_id
   vpc_security_group_ids = [aws_security_group.web.id]
   iam_instance_profile   = var.instance_profile_name
