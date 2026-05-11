@@ -9,3 +9,10 @@ output "public_subnet_ids" {
 output "private_subnet_ids" {
   value = module.vpc.private_subnet_ids
 }
+output "s3_bucket_name" {
+  value = module.s3.bucket_name
+}
+
+output "s3_bucket_arn" {
+  value = module.s3.bucket_arn
+}
