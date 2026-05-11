@@ -16,3 +16,10 @@ output "s3_bucket_name" {
 output "s3_bucket_arn" {
   value = module.s3.bucket_arn
 }
+output "ec2_instance_profile_name" {
+  value = module.iam.ec2_instance_profile_name
+}
+
+output "ec2_role_name" {
+  value = module.iam.ec2_role_name
+}
